@@ -35,9 +35,11 @@
 @layer base {
 	h1 {
 		@apply text-raisin;
-		@apply text-7xl;
+		@apply text-4xl;
 	}
 	li {
 		@apply lowercase;
+		@apply text-grey;
+		@apply overline;
 	}
 }
