@@ -2,9 +2,15 @@ import type { Metadata } from 'next';
 import { DM_Sans, DM_Serif_Display, Belanosima } from 'next/font/google';
 import './globals.css';
 
-const dm_sans = DM_Sans();
-const dm_serif_display = DM_Serif_Display({ weight: '400' });
-const belanosima = Belanosima({ weight: ['400', '600', '700'] });
+const dm_sans = DM_Sans({ subsets: ['latin'] });
+const dm_serif_display = DM_Serif_Display({
+	weight: '400',
+	subsets: ['latin'],
+});
+const belanosima = Belanosima({
+	weight: ['400', '600', '700'],
+	subsets: ['latin'],
+});
 
 export const metadata: Metadata = {
 	title: 'Create Next App',

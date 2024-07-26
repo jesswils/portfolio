@@ -4,8 +4,7 @@ export default function NotFound() {
 	return (
 		<div>
 			<h2>Not Found</h2>
-			<p>Could not find requested resource</p>
-			<Link href='/'>Return Home</Link>
+			<Link href='/'>Click here to return to home</Link>
 		</div>
 	);
 }
